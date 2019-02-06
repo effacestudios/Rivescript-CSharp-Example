@@ -45,6 +45,7 @@ namespace RiveScript_CSharp
                 textBox2.AppendText("Bot: " + bot.reply("local-user", textBox1.Text) + Environment.NewLine);
                 textBox2.AppendText(Environment.NewLine);
                 textBox2.AppendText("You: " + textBox1.Text + Environment.NewLine);
+                textBox1.Text = "";
             }
         }
     }
